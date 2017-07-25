@@ -87,12 +87,12 @@ let x = (false == 0);
 
 // 12.
 let y = (false == "");
-// A. boolean is false
+// A. boolean is true
 
 
 // 13.
 let z = (0 == "");
-// A.  boolean would be false
+// A.  boolean would be true
 
 
 // 14.
@@ -107,7 +107,8 @@ let b = (undefined == undefined);
 
 // 16.
 let c = (undefined == null);
-// A. boolean would be false
+// A. true
+
 
 
 // 17.
@@ -122,7 +123,7 @@ let e = (NaN == null);
 
 // 19.
 let f = (NaN == NaN);
-// A. boolean would be true
+// A. boolean would be false
 
 
 // 20.
@@ -131,7 +132,7 @@ let f = (NaN == NaN);
 // A:
 let thirsty = true;
 
-if (thirsty == false)
+if (thirsty == true)
 {
   console.log("I'm parched!");
 } else {
